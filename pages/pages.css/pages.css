@@ -1,0 +1,59 @@
+.page_header {
+    height: 446px;
+    position: relative;
+    background-size: cover !important;
+    color: #344E41;
+    font-weight: 600;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 188px;
+    justify-content: center;
+}
+
+.header-text h1{
+    font-size: 48px;
+    display: flex;
+    margin: auto;
+}
+
+.header-text h3 {
+    font-size: 24px;
+    display: flex;
+    margin: auto;
+}
+
+hr {
+    width: 80%;
+    margin: 16px 0;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 440px) {
+
+    .header-text {
+        margin: auto;
+        padding-top: 158px;
+    }
+    
+    .header-text h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .header-text h3 {
+        font-size: 18px;
+        line-height: 22.5px;
+    }
+    
+    .about-us-page-header {
+        height: 291px;
+    }
+
+    footer hr {
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,80 @@
+.gallery-page-header {
+    background: linear-gradient(0deg, rgba(218, 215, 205, 0.6), rgba(218, 215, 205, 0.6)), url(../../YOGI_Images_Icons/YOGI_Images_Icons/YOGI_Images/Rectangle\ 8-5.jpg);
+    height: 446px;
+    overflow-y: scroll;
+    background-position-y: 23%;
+}
+
+#galleryList {
+    margin-top: 111px;
+    margin-left: 126px;
+    margin-bottom: 180px;
+    width: 1189px;
+    list-style: none !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 24px;
+}
+
+#galleryList li img {
+    width: 383px;
+    height: 365px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.gallery-get-in-touch{
+    background-color: #DAD7CD;
+}
+
+.gallery-get-in-touch button {
+    margin: 0;
+}
+
+.gallery-get-in-touch .get-in-touch-text {
+    display: flex;
+    gap: 16px;
+}
+
+nav ul li:nth-child(1) a {
+    color: #344E41;
+}
+
+nav ul li:nth-child(3) a {
+    color: #A3B18A;
+}
+
+.selected img {
+    width: 600px !important;
+    height: 600px !important;
+    z-index: 50;
+}
+
+.openedImage {
+    position: absolute;
+    background-color: violet;
+    width: 500px;
+    height: 500px;
+    left: 54%;
+    top: 79%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .openedImageImg {
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+  .galleryImage {
+    list-style-type: none !important;
+  }

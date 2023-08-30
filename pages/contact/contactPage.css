@@ -1,0 +1,109 @@
+.contact-header {
+    background: linear-gradient(0deg, rgba(218, 215, 205, 0.6), rgba(218, 215, 205, 0.6)), url(../../YOGI_Images_Icons/YOGI_Images_Icons/YOGI_Images/Rectangle\ 8.jpg);
+    height: 436px;
+    background-position-y: 60%;
+}
+
+.contact-page-content > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 23px;
+    margin-top: 111px;
+    margin-bottom: 44px;
+}
+
+.contact-page-content div h1 {
+    font-weight: 600;
+    font-size: 37px;
+    color: #344E41;
+}
+
+.contact-page-content div h3{
+    font-size: 20px;
+}
+
+form {
+    width: 612px;
+    text-align: start;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+form div {
+    display: flex;
+    gap: 22px;
+}
+
+form div div{
+    width: 295px;
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 9px;
+}
+
+form div div input {
+    border: 1px solid #DAD7CD;
+    border-radius: 5px;
+    width: 295px;
+    height: 60px;
+}
+
+.error {
+    border: 2px solid red;
+  }
+
+.email-input{
+    border: 1px solid #DAD7CD;
+    border-radius: 5px;
+    width: 608px;
+    height: 60px;
+}
+
+.vertical-align{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.send-btn{
+    width: 608px;
+    height: 53px !important;
+    background-color: #344E41;
+    color: #ffffff;
+    border-radius: 26.5px;
+    margin-top: 17px;
+    margin-bottom: 136px;
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.send-btn:hover{
+    background: #A3B18A;
+}
+
+.send-btn:active{
+    border: 2px solid #344E41;
+}
+
+textarea {
+    width: 608px;
+    height: 210px;
+    border: 1px solid #DAD7CD;
+    border-radius: 5px;
+}
+
+nav ul li:nth-child(1) a {
+    color: #344E41;
+}
+
+nav ul li:nth-child(4) a {
+    color: #A3B18A;
+}
+

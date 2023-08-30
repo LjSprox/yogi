@@ -1,0 +1,120 @@
+.about-us-page-header{
+    background: url(../../YOGI_Images_Icons/YOGI_Images_Icons/YOGI_Images/Rectangle\ 4.png);
+}
+
+.page-content {
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+}
+
+.mission-and-vision{
+    height: 724px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+}
+
+.mission-and-vision-content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 149px;
+    justify-content: center;
+}
+
+.mission-and-vision-card{
+    width: 284px;
+    height: 281px;
+    text-align: center;
+}
+
+.testimonials{
+    height: 875px;
+    background-color: #DAD7CD;
+}
+
+.testimonials-section-header{
+    color: #344E41;
+    padding-top: 141px;
+    margin: 0;
+}
+
+.testimonials-section-content ul {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+    margin-left: 184px;
+}
+
+.testimonials-section-content ul li {
+    width: 347px;
+    height: 379px;
+    text-align: center;
+}
+
+.testimonials-section-content ul li img {
+    width: 147px;
+    height: 148px;
+    filter: drop-shadow(0px 4px 42px rgba(218, 215, 205, 0.4));
+}
+
+.testimonial-card-content {
+    width: 347px;
+    height: 305px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: -80px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimonial-card-content p {
+    margin-inline: auto;
+    width: 272px;
+    height: 51px;
+    font-weight: 400;
+}
+
+.testimonial-card-content h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #A3B18A;
+}
+
+.about-us-page-get-in-touch{
+    background-color: #ffffff;
+}
+
+.about-us-page-get-in-touch .get-in-touch-text h3{
+    font-weight: 600;
+    font-size: 40px;
+    color: #344E41;
+}
+
+.about-us-page-get-in-touch .get-in-touch-text p{
+    color: #111111;
+}
+
+.about-us-page-get-in-touch .get-in-touch-text {
+    display: flex;
+    gap: 16px;
+}
+
+.about-us-page-green-btn{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav ul li:nth-child(1) a {
+    color: #344E41;
+}
+
+nav ul li:nth-child(2) a {
+    color: #A3B18A;
+}

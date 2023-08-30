@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="../../style.css" rel="stylesheet" type="text/css">
+    <link href="../pages.css/pages.css" rel="stylesheet" type="text/css">
+    <link href="./contactPage.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../../styleIPad.css" >
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header">
+          <a href="../../pages/../index.html" class="logo-icon-header-link">
+            <img src="../../YOGI_Images_Icons/YOGI_Images_Icons/YOGI Logo.svg" alt="logo" id="logo">      
+          </a>
+          <nav>
+            <ul class="navigation">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../aboutUs/aboutUsPage.html">About us</a></li>
+              <li><a href="../gallery/galleryPage.html">Gallery</a></li>
+              <li><a href="#contact-form-heading">Contact</a></li>
+            </ul>
+          </nav>
+          <a class="contact-btn contact-btn-header" href="#contact-form-heading" >
+            <svg class="phone-icon-white" width="21" height="21" viewBox="0 0 21 21" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.22333 9.08833C5.90333 12.39 8.61 15.085 11.9117 16.7767L14.4783 14.21C14.7933 13.895 15.26 13.79 15.6683 13.93C16.975 14.3617 18.3867 14.595 19.8333 14.595C20.475 14.595 21 15.12 21 15.7617V19.8333C21 20.475 20.475 21 19.8333 21C8.87833 21 0 12.1217 0 1.16667C0 0.525 0.525 0 1.16667 0H5.25C5.89167 0 6.41667 0.525 6.41667 1.16667C6.41667 2.625 6.65 4.025 7.08167 5.33167C7.21 5.74 7.11667 6.195 6.79 6.52167L4.22333 9.08833Z"
+                fill="none" \ />
+            </svg>
+            <span class="contact_link">contact us</span>
+          </a>
+          <button class="hamburger" id="hamburgerBtn">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+          </button>
+        </header>
+      </div>
+    <div class="container">
+        <header class="page_header contact-header">
+            <div class="header-text">
+                <h1>Contact Us</h1>
+                <h3>Get in touch with us!</h3>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="contact-page-content">
+            <div>
+                <h1 id="contact-form-heading">Let’s talk!</h1>
+                <h3>Send us a message and we’ll get back to you in a minute.</h3>
+            </div>
+              <form onsubmit="sendEmail(); reset(); return false;"> 
+                <div>
+                  <div>
+                    <label for="first-name">*Name</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+                  <div>
+                    <label for="surname">*Surname</label>
+                    <input id="surname" name="surname" type="text" required />
+                  </div>
+                </div>
+                <div class="vertical-align">
+                  <label for="email">*E-Mail</label>
+                  <input class="email-input" id="email" name="email" type="email" required />
+                </div>
+                <div class="vertical-align">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="send-btn">SEND</button>
+              </form>    
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <div class="footer-container">
+                <div>
+                  <a class="logo-footer-link" href="../../pages/../index.html">
+                      <img src="../../YOGI_Images_Icons/YOGI_Images_Icons/YOGI Logo2.svg" class="footer-logo">                  
+                  </a>
+                    <a class="contact-btn contact-btn-grey footer-btn" href="#contact-form-heading">
+                        <svg class="phone-icon-green" width="21" height="21" viewBox="0 0 21 21" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.22333 9.08833C5.90333 12.39 8.61 15.085 11.9117 16.7767L14.4783 14.21C14.7933 13.895 15.26 13.79 15.6683 13.93C16.975 14.3617 18.3867 14.595 19.8333 14.595C20.475 14.595 21 15.12 21 15.7617V19.8333C21 20.475 20.475 21 19.8333 21C8.87833 21 0 12.1217 0 1.16667C0 0.525 0.525 0 1.16667 0H5.25C5.89167 0 6.41667 0.525 6.41667 1.16667C6.41667 2.625 6.65 4.025 7.08167 5.33167C7.21 5.74 7.11667 6.195 6.79 6.52167L4.22333 9.08833Z"
+                                fill="none" />
+                        </svg>
+                        <span class="contact_link">contact us</span>
+                      </a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="../../pages/../index.html">home</a></li>
+                        <li><a href="../aboutUs/aboutUsPage.html">about us</a></li>
+                        <li><a href="../gallery/galleryPage.html">gallery</a></li>
+                        <li><a href="#contact-form-heading">contact us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="faded-text">Working Hours</p>
+                    <p>Monday - Friday</p>
+                    <p>08:00 - 12:00 & 13.00 - 17.00</p>
+                    <p class="faded-text">Address</p>
+                    <p>1234 Main Street, Anytown</p>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright-text">
+              <p>&copy; Copyright 2023 | All Rights Reserved | Powered by EAGLE IT Soulitions</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="../../script.js"></script>
+</html>

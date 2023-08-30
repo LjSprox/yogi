@@ -1,0 +1,1123 @@
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  {
+
+  .page-header {
+    height: 80px;
+    max-width: 1440px;
+  }
+
+  #logo {
+    width: 153.58px;
+    height: 54px;
+  }
+
+  .contact-btn {
+    width: 158px;
+    height: 53px;
+  }
+
+  .background {
+    height: 1024px;
+    position: static;
+    z-index: 999;
+  }
+
+  nav {
+    gap: 22px;
+    width: 417px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .background h1 {
+    width: 670px !important; 
+  }
+
+  .logo_icons {
+    top: 108.3%;
+  }
+
+  .benefits-of-yoga {
+    height: 724px;
+  }
+
+  .flexible-schedule {
+    height: 737px;
+  }
+
+  .flexible-schedule-content {
+    vertical-align: middle;
+    width: 903px;
+    height: 452px;
+  }
+
+  .flexible-schedule-content img {
+    width: 314px;
+    height: 293px;
+    display: inline;
+    margin-top: 79.5px;
+  }
+
+  .unsere-prinzipien {
+    height: 770px;
+  }
+
+  .unsere-prinzipien ul {
+    width: 899px;
+    height: 304px;
+  }
+
+  .unsere-prinzipien-card {
+    width: 289px;
+    height: 304px;
+  }
+
+  .unsere-prinzipien-card img {
+    margin-top: 45.42px;
+  }
+
+  .unsere-prinzipien .card-description{
+      width: 272px;
+  }
+
+  .get-in-touch {
+    height: 342.76px;
+  }
+
+  .get-in-touch>img {
+    width: 470.76px;
+    height: 342.76px;
+  }
+
+  .get-in-touch-text {
+    margin-left: 69.69px;
+  }
+
+  .get-in-touch-text p {
+    width: 366px;
+    height: 53px;
+  }
+
+  .one {
+    width: 128px;
+    height: 128px;
+    right: 40px;
+    top: 30px;
+  }
+
+  .two {
+    width: 307.2px;
+    height: 307.2px;
+    top: 190px;
+  }
+
+  .meet-us {
+    height: 918px;
+  }
+
+  footer {
+    height: 477px;
+  }
+
+  /* ABOUT US PAGE */
+
+  .mission-and-vision {
+    height: 724px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission-and-vision-content {
+    width: 717px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission-and-vision-content ul {
+    width: 717px;
+    height: 281px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .testimonials {
+    height: 778px;
+  }
+
+  .testimonials-section-content ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 69px;
+    margin-top: 80px;
+    gap: 13px;
+  }
+
+  .testimonials-section-content ul li {
+    width: 287px;
+    height: 313px;
+  }
+
+  .testimonials-section-content ul li img {
+    width: 121.58px;
+    height: 122.23px;
+  }
+
+  .testimonial-card-content {
+    width: 287px;
+    height: 251.89px;
+    gap: 33.21px;
+  }
+
+  .about-us-page-get-in-touch {
+    height: 342.76px;
+  }
+
+  .get-in-touch-text {
+    width: 366px;
+    height: 188px;
+    margin-top: 105px;
+  }
+
+  /* GALLERY PAGE */
+
+  .gallery {
+    padding: 0;
+    margin: 0;
+    height: 1099px;
+  }
+
+  #galleryList {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin: 120px auto;
+  }
+
+ #galleryList li {
+    height: 277.82px;
+    width: 291.52px;
+  }
+
+ #galleryList li img {
+    height: 277.82px;
+    width: 291.52px;
+  }
+
+  .gallery-get-in-touch {
+    height: 342.76px;
+    margin-top: 124.75px;
+  }
+
+  /* CONTACT PAGE */
+
+  .contact-page-content {
+    height: 1099px;
+  }
+
+  .contact-page-content form {
+    height: 712px;
+
+  }
+
+  .slideCircles {
+    width: 38px;
+    height: 15px;
+    display: flex;
+    margin-top: 46px;
+    gap: 8px;
+  }
+
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  #circles-container {
+    display: none;
+  }
+
+  #circles-container-unsere-prinzipien,
+  #circles-container-meet-us-section {
+    display: none;
+  }
+
+  .send-btn{
+    margin: 0;
+  }
+}
+
+
+
+@media(max-width: 768px){
+
+  .container {
+    max-width: 768px;
+    min-width: 350px;
+    width: 100%;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  .header-text h1 {
+    font-size: 24px !important;
+  }
+
+  .header-text h3 {
+    font-size: 18px !important;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px;
+    height: 21px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 30px;
+  }
+
+  .hamburger__line {
+    width: 100%;
+    height: 3px;
+    background-color: #344E41;
+    border-radius: 20px;
+  }
+
+  .background-text {
+    height: fit-content;
+    padding-top: 160px;
+    align-items: start;
+    margin-left: 30px;
+  }
+
+  .background {
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  .background-text h1 {
+    font-weight: 600;
+    font-size: 24px;
+    width: 230px;
+    height: 90px;
+    line-height: 30px;
+
+  }
+
+  .background-text h3 {
+    width: 218px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .logo_icons {
+    bottom: -71px;
+    right: 45%;
+  }
+
+  #hamburgerBtn.hide {
+    display: none;
+  }
+
+  .page-header {
+    max-width: 768px;
+    transition: height 0.3s ease-in-out;
+    align-items: center;
+  }
+
+  .page-header.show {
+    justify-content: space-between;
+    display: block;
+    width: 100%;
+    height: 537px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20%;
+    transform: translateY(0);
+  }
+
+  #logo.show {
+    margin-top: 50px;
+  }
+
+  .navigation.show {
+    width: 103px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+  } 
+
+  .contact-btn.show {
+    display: flex;
+    margin-bottom: 68px;
+    margin-top: 58px;
+  }
+
+  .card-section-header div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .card-section-header p {
+    font-size: 14px;
+  }
+
+  .card-section-header h3 {
+    font-size: 20px !important;
+    width: 291px;
+  }
+
+  #logo {
+    margin-left: 30px;
+  }
+
+  .benefits-of-yoga {
+    height: 642px;
+    margin: 0;
+  }
+
+  .benefits-of-yoga ul {
+    margin: 0;
+    padding-top: 55px;
+  }
+
+  .benefits-of-yoga-card .card-heading, .mission-and-vision-card .card-heading {
+    width: 206px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+
+  .benefits-of-yoga-card .card-description, .mission-and-vision-card .card-description {
+    width: 207px;
+    margin: auto;
+  }
+
+  #circles-container {
+    display: flex;
+    width: 44.8px;
+    justify-content: space-between;
+    margin-top: 29px;
+  }
+
+  #circles-container .circle {
+    background-color: #D9D9D9;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .flexible-schedule {
+    height: 712px;
+    justify-content: center;
+  }
+
+  .flexible-schedule-content {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+  }
+
+  .flexible-schedule-content img {
+    width: 314px;
+    height: 293px;
+  }
+
+  .flexible-schedule-text {
+    width: 310px;
+    height: 264px;
+    gap: 16px;
+  }
+
+  .small-text {
+    font-size: 14px !important;
+  }
+
+  .section-header {
+    font-size: 20px !important;
+  }
+
+  .card-heading {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+  }
+
+  .card-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .flexible-schedule-content p {
+    font-size: 14px !important;
+  }
+
+  #circles-container-unsere-prinzipien {
+    display: flex;
+    justify-content: space-between;
+    width: 32.53px;
+    padding-top: 40px;
+  }
+
+  #circles-container-unsere-prinzipien .circle {
+    background-color: #D9D9D9;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .unsere-prinzipien {
+    height: 550px;
+  }
+
+  .unsere-prinzipien ul {
+    margin-top: 30px;
+  }
+
+  .unsere-prinzipien-card {
+    width: 270px;
+    height: 280px;
+  }
+
+  .unsere-prinzipien-card img {
+    margin-top: 40px;
+  }
+
+  .unsere-prinzipien-card .card-description {
+    width: 227px;
+    margin: auto;
+  }
+
+  .get-in-touch {
+    height: 300px;
+    align-items: center;
+  }
+
+  .get-in-touch-text {
+    margin: 0;
+    padding: 25px;
+  }
+
+  .get-in-touch img {
+    display: none;
+  }
+
+  #circles-container-meet-us-section {
+    display: flex;
+    justify-content: space-between;
+    width: 20.27px;
+    margin-top: 36px;
+    margin-left: 25px;
+  }
+
+  .logo-icon{
+    display: none;
+  }
+
+  #circles-container-meet-us-section .circle {
+    background-color: #D9D9D9;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+  }
+
+  .meet-us {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+  }
+
+  .meet-us{
+    height: 650px;
+  }
+
+  .card-image {
+    text-align: center;
+    width: 314px;
+  }
+
+  .card-image img {
+    height: 363px !important;
+    width: 100%;
+    border-radius: 16px;
+    margin-top: 43px;
+    overflow: hidden;
+  }
+
+  .card-image-desc {
+    position: relative;
+    z-index: 5;
+    margin-left: 30px;
+    width: 246px;
+    padding-left: 0;
+  }
+
+  /* About Us Page */
+
+  .about-us-page-header {
+    height: 350px !important;
+    background-position-x: center;
+  }
+
+  .mission-and-vision {
+    height: 517px;
+    gap: 0;
+  }
+
+  .mission-and-vision-card {
+    width: 207px;
+    height: 220px;
+    margin-top: 55px;
+  }
+
+  .testimonials-section-header{
+    display: none;
+  }
+
+  #circles-container-mission-and-vision{
+    display: flex;
+    gap: 4px;
+    width: 44.8px;
+    margin: auto;
+  }
+
+  #circles-container-mission-and-vision .circle {
+    background-color: #D9D9D9;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  #circles-container-meet-us-section-about-us-page{
+    width: 20.27px;
+    margin-top: 36px ;
+    display: flex;
+    width: 44.8px;
+    gap: 4px;
+    z-index: -5;
+  }
+
+  #circles-container-meet-us-section-about-us-page .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 10;
+  }
+
+  .testimonials {
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonials .card {
+    margin: auto;
+  }
+
+  #testimonial-cards{
+    padding: 0;
+    margin: 0;
+  }
+
+  #testimonial-cards li {
+    height: 313px;
+    width: 287px;
+
+
+  }
+
+  .testimonial-card-content {
+    height: 252px;
+    width: 287px;
+  }
+
+  #testimonial-cards li {
+    height: 366px;
+    width: 289px;
+  }
+
+  #circles-container-testimonials{
+    display: flex;
+    gap: 10px;
+    height: 8px;
+    margin: auto;
+    margin-left: 128;
+    padding-left: 128px ;
+  }
+
+  #circles-container-testimonials .circle {
+    background-color: #ffffff;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  /* GALLERY - PAGE */
+
+  .galery-page-header{
+    height: 211px;
+  }
+
+  .galery-page-header .header-text{
+    padding: 0;
+    margin: 0;
+    margin-top: 105px;
+    gap: 8px;
+  }
+
+  .galery-page-header .header-text h3 {
+    width: 243px;
+    text-align: center;
+  }
+
+  .gallery{
+    height: 2801px;
+  }
+
+ #galleryList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: auto;
+    padding: 0;
+    width: 291.52px;
+    height: 2628.36px;
+    padding-top: 67px;
+
+    align-items: center;
+  }
+
+ #galleryList li img {
+    width: 291.52px;
+    height: 277.82px;    
+    object-fit: cover;
+  }
+
+  /* CONTACT PAGE */
+
+  .contact-header {
+    height: 291px;
+  }
+
+  .contact-page-content {
+    height: 973px;
+  }
+
+  .contact-header .header-text {
+    padding-top: 145px;
+  }
+
+  .contact-page-content > div {
+    width: 253px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: 94px;
+    margin-bottom: 59px;
+  }
+
+  .contact-page-content div h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  .contact-page-content div h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .contact-page-content form {
+    width: 295px;
+  }
+
+  .contact-page-content form > div {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    margin-bottom: 16px;
+  }
+
+  .vertical-align:nth-child(2) {
+    width: 295px;
+    height: 87px;
+  }
+
+  #email{
+    width: 295px;
+  }
+
+  .vertical-align:nth-child(3){
+    width: 295px;
+    height: 212px;
+  }
+
+  .vertical-align:nth-child(3) textarea {
+    height: 185px;
+    width: 295px;
+  }
+
+  .send-btn {
+    width: 295px;
+    height: 53px;
+  }
+
+  footer {
+    height: 900px;
+  }
+
+  
+  .copyright-text p {
+    background-color: #344E41;
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+    height: 127px;
+    padding: 11px 30px 0 30px;
+    margin-top: -2px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    height: 900px;
+    background-color: #344E41;
+    padding: 30px;
+  }
+
+  .footer hr {
+    border: 1px solid #FFFFFF;
+    margin: auto;
+    width: 314px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .about-us-page-header{
+    background: url('./YOGI_Images_Icons/YOGI_Images_Icons/YOGI_Images/tablet-background.png') ;
+}
+  .container {
+    max-width: 1024px;
+    min-width: 768px;
+    width: 100%;
+  }
+
+  .page-header {
+    height: 80px;
+    min-width: 769px;
+    max-width: 1023px;
+    background-color: violet;
+  }
+
+  #logo {
+    width: 133px;
+    height: 45px;
+  }
+
+  nav ul {
+    gap: 25px;
+    justify-content: unset;
+    width: unset;
+  }
+
+  .contact-btn-header {
+    width: 130px !important;
+    height: 50px !important;
+    gap: 8px;
+  }
+
+  .phone-icon-white {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  .background {
+    height: 650px;
+  }
+
+  .background-text {
+    margin-left: 60px;
+    gap: 20px;
+  }
+
+  .background h1 {
+    font-size: 45px;
+    width: 500px;
+    margin: 0;
+  }
+
+  .background h3 {
+    width: 500px;
+  }
+
+  .card-section-header div h3{
+    font-size: 31px;
+  }
+
+  .unsere-prinzipien {
+    height: 650px;
+  }
+
+  .benefits-of-yoga {
+    height: 650px;
+  }
+
+  .flexible-schedule-content img {
+    height: unset;
+    width: 300px;
+    object-fit: cover;
+    padding: 10px;
+    height: 400px;
+    margin: auto;
+  }
+
+  .flexible-schedule-content {
+    gap: 24px;
+  }
+
+  .section-header {
+    font-size: 25px;
+  }
+
+  .flexible-schedule-text {
+    padding: 10px px 10px 0;
+    gap: 10px;
+  }
+
+  .flexible-schedule p {
+    font-size: 16px;
+  }
+
+  .small-text {
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .unsere-prinzipien-card {
+    height: 270px ;
+    width: 240px;
+  }
+
+  .unsere-prinzipien-card img {
+    margin-top: 15px;
+    width: 70px;
+    height: 75px;
+  }
+
+  .card-heading{
+    margin: 0;
+  }
+
+  .get-in-touch {
+    gap: 25px;
+  }
+
+  .get-in-touch > img {
+    width: 430px;
+    object-fit: cover;
+    height: 345px;
+  }
+
+  .get-in-touch-text {
+    margin-left: unset;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .card-images {
+    justify-content: center;
+    height: 450px;
+  }
+
+  .card-images img {
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  .card-image {
+    width: 300px;
+  }
+
+  .card-image-desc{
+    position: relative;
+    margin-top: -70px;
+    width: 250px;
+  }
+
+  .logo_icons {
+    bottom: -71px;
+  }
+
+  .logo-icon {
+    display: none;
+  }
+
+  .contact-btn-grey {
+    margin-top: 10px;
+  }
+
+  .mission-and-vision {
+    height: 650px;
+  }
+
+  .mission-and-vision-content ul {
+    gap: 85px;
+  }
+
+  .mission-and-vision-card {
+    gap: 20px;
+  }
+
+  .testimonials-section-header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .testimonials-section-header div p {
+    font-size: 16px;
+  }
+
+  .testimonials-section-header div h3 {
+    font-size: 31px;
+  }
+  
+  .testimonials-section-header {
+    padding-top: 20px;
+  }
+
+  .testimonials {
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .testimonials .card {
+    margin: auto;
+  }
+
+  #testimonial-cards{
+    padding: 0;
+    margin: 0;
+  }
+
+  #testimonial-cards li {
+    height: 313px;
+    width: 287px;
+    margin: auto;
+  }
+
+  .testimonial-card-content {
+    height: 252px;
+    width: 287px;
+  }
+
+  #testimonial-cards li {
+    height: 366px;
+    width: 289px;
+  }
+
+  #circles-container-testimonials{
+    display: flex;
+    gap: 10px;
+    height: 8px;
+    margin: auto;
+    margin-left: 128;
+    padding-left: 128px ;
+  }
+
+  #circles-container-testimonials .circle {
+    background-color: #ffffff;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .gallery {
+    height: 1700px;
+    margin-top: 50px;
+  }
+
+ #galleryList {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 0;
+    width: 85%;
+    margin: auto;
+  }
+
+ #galleryList li img{
+    width: 340px;
+    height: 320px;
+  }
+
+  .slideCircles {
+    width: 38px;
+    height: 15px;
+    display: flex;
+    margin-top: 46px;
+    gap: 8px;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  #circles-container {
+    display: none;
+  }
+
+  .footer hr {
+    border: 1px solid #FFFFFF;
+    margin: auto;
+    width: 250px;
+  }
+}

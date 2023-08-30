@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+.container {
+    max-width: 1550px;
+    width: 100%;
+    margin: auto;
+}
+
+.hamburger{
+    display: none;
+}
+
+.page-header {
+    background-color: #ffffff !important;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    position: fixed;
+    overflow: visible;
+    z-index: 10;
+    width: 100%;
+}
+
+#logo {
+    background-color: #ffffff;
+    width: 153.58px;
+    height: 54px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.logo-icon-header-link {
+    display: flex;
+}
+
+nav {
+    background-color: inherit;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+nav ul {
+    background-color: inherit;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    background-color: inherit;
+}
+
+nav ul li a {
+    background-color: inherit;
+    text-decoration: none;
+    color: #344E41;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact_link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 158px;
+    height: 53px;
+    border-radius: 26.5px;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+}
+
+.contact-btn-header {
+    margin-bottom: auto;
+    margin-top: auto;
+    background: #344E41;
+    transition: color 0.5s ease-in-out;
+}
+
+.contact-btn-header span {
+    transition: all 0.3s ease-out;
+}
+
+.contact-btn-header svg path {
+    transition: fill 0.3s ease-out;
+}
+
+.contact-btn-green {
+    background: #344E41;
+    color: #ffffff;
+}
+
+.contact-btn-green a {
+    color: #ffffff;
+}
+
+.contact-btn-header:hover svg path, .contact-btn-header:hover span{
+    color: #A3B18A;
+     fill: #A3B18A;
+}
+
+.phone-icon-white path{
+    fill: #ffffff;
+}
+
+.phone-icon-green path {
+    fill: #344E41;
+}
+
+.background {
+    background: url(./YOGI_Images_Icons/YOGI_Images_Icons/YOGI_Images/Rectangle\ 3.png); 
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.background-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 103px;
+    height: 800px;
+    justify-content: center;
+}
+
+.background-text h3 {
+    width: 670px;
+}
+
+.background h1, h3 {
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.punctuation{
+    color: #A3B18A;
+}
+
+.background h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #344E41;
+    width: 670px;
+    margin-bottom: 16px;
+}
+
+.background h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    width: 592px;
+    height: 40px;
+    margin-bottom: 24px;
+}
+
+.logo_icons {
+    position: absolute;
+    height: 180.49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: -71px;
+    right: 50%;
+    justify-content: space-around;
+}
+
+.logo_icons img:nth-child(1) {
+    width: 54px;
+    height: 54px;
+}
+
+.logo_icons img:nth-child(2){
+    width: 32.11px;
+    height: 32.11px;
+    transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.logo_icons img:nth-child(3){
+    width: 16.05px;
+    height: 16.05px;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+
+.learn-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 53px;
+    font-size: 14px;
+    padding: 17.5px 24px 17.5px 23px;
+    background: #344E41;
+    border-radius: 26.5px;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+
+.learn-more-btn span{
+    text-decoration: none; 
+    color: #ffffff;
+    transition: all 0.3s ease-out;
+}
+
+.learn-more-btn:active {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.learn-more-btn:hover span{
+    color: #A3B18A ;
+     fill: #A3B18A ;
+}
+
+.benefits-of-yoga{
+    height: 724px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section-header {
+    display: flex;
+    height: 86px;
+    justify-content: center;
+}
+
+.card-section-header div {
+    text-align: center;
+    height: 86px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section-header div h3 {
+    color: #344E41;
+    font-size:40px ;
+    font-weight: 600;
+}
+
+.card-section-header div p {
+    color: #A3B18A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.benefits-of-yoga ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.benefits-of-yoga ul, li, img, h3, p {
+    background-color: inherit;
+}
+
+.benefits-of-yoga-card {
+    width: 285px;
+    height: 286px;
+    text-align: center;
+}
+
+.benefits-of-yoga-card img {
+    padding: 4px;
+    margin-bottom: 29px;
+}
+
+.card-heading {
+    color:#344E41;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.card-description {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.flexible-schedule{
+    background-color: #DAD7CD;
+    display: flex;
+    width: 100%;
+}
+
+.flexible-schedule-content{
+    margin: auto;
+    display: flex;
+    gap: 71px;
+    width: 1201px;
+    align-items: center;
+    height: 465px;
+    margin: 136px 120px;
+}
+
+.flexible-schedule-content img {
+    width: 498px;
+    height: 465px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.flexible-schedule-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flexible-schedule p {
+    font-size: 20px;
+}
+
+.small-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #344E41;
+}
+
+.contact-btn-green {
+    transition: color 0.5s ease-in-out;
+}
+
+.contact-btn-green span {
+    transition: all 0.3s ease-out;
+}
+
+.contact-btn-green:hover svg path, .contact-btn-green:hover span {
+    color: #A3B18A;
+    fill: #A3B18A;
+}
+
+
+.section-header{
+    font-weight: 600;
+    font-size: 40px;
+    color: #344E41;
+}
+
+.unsere-prinzipien {
+    height: 819px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unsere-prinzipien ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 19px;
+}
+
+.unsere-prinzipien-card {
+    box-shadow: 0px 4px 42px rgba(218, 215, 205, 0.4);
+    border-radius: 10px;
+    width: 347px;
+    height: 365px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.unsere-prinzipien-card img {
+    width: 85px;
+    height: 85px;
+    margin-top: 76px;
+}
+
+.get-in-touch {
+    background-color: #344E41;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.get-in-touch > img {
+    width: 662px;
+    height: 482px;
+}
+
+.get-in-touch-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 98px;
+    gap: 20px;
+}
+
+
+.contact-btn-grey{
+    background-color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-btn-grey span {
+    transition: all 0.3s ease-out;
+    color: #344E41;
+}
+
+.contact-btn-grey svg path {
+    transition: fill 0.3s ease-out;
+}
+
+.contact-btn-grey:hover svg path, .contact-btn-grey:hover span{
+    color: #A3B18A;
+    fill: #A3B18A;
+}
+.contact-btn-grey:hover {
+    background-color: #344E41;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.logo-icon {
+    mix-blend-mode: lighten;
+    position: absolute;
+}
+
+.one {
+    width: 180px;
+    height: 180px;
+    top: 69px;
+    right: 39px;
+    opacity: 5%;
+}
+
+.two {
+    width: 432px;
+    height: 432px;
+    top: 266px;
+    right: 29px;
+    opacity: 10%;
+}
+
+.meet-us{
+    height: 918px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.card-images{
+    display: flex;
+    height: 464px;
+    gap: 80px;
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    align-items: center;
+    height: 464px;
+    width: 351px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 406px;
+    filter: drop-shadow(0px 4px 42px rgba(218, 215, 205, 0.4));
+}
+
+.card-image:nth-child(1) img {
+    object-fit: cover;
+    width: 100%;
+    height: 464px;
+    object-position: right;
+}
+
+.card-image-desc{
+    box-shadow: 0px 4px 42px rgba(218, 215, 205, 0.4);
+    border-radius: 16px;
+    background-color: #ffffff;
+    margin-top: -50px;
+    z-index: 1;
+    width: 296px;
+    height: 117px;
+    padding-left: 20px;
+    padding-top: 27px;
+    gap: 11px;
+}
+
+.card-image-desc h5 {
+    color: #A3B18A;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#circles-container-testimonials > .circle{
+    background-color: #ffffff!important
+}
+
+#circles-container-testimonials > .active{
+    background-color: rgb(163, 177, 138)!important
+}
+
+.card-image-desc p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 11px;
+}
+
+footer {
+    height: 477px;
+    background-color: #344E41;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 152px;
+    padding-bottom: 56px;
+}
+
+.footer-logo{
+    width: 210.46px;
+    height: 74px;
+}
+
+.footer-container div:first-child{
+    padding-top: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.footer-container div:nth-child(2){
+    width: 88px;
+    height: 152px;
+    gap: 24px;
+}
+
+.footer-container ul {
+    list-style: none;
+    width: 88px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+.footer-container div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 227px;
+    height: 192px;
+}
+
+.footer-container div:nth-child(3) p {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+.faded-text {
+    text-decoration: underline !important;
+    color: #A3B18A !important;
+}
+
+footer hr {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 0 120px;
+}
+
+.copyright-text p {
+    padding-left: 126px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+nav ul li:nth-child(1) a {
+    color: #A3B18A;
+}
+
+.contact-btn {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.slideCircles, #circles-container, circle, #circles-container-unsere-prinzipien, #circles-container-meet-us-section {
+    display: none;
+}
+
+.footer-span-line {
+    display: flex;
+    width: 70%;
+    margin-inline: auto;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.footer-btn{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo-footer-link {
+    display: flex;
+}
+
+  
+  
